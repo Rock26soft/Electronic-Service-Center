@@ -1,0 +1,88 @@
+
+
+*{
+padding: 0%;
+margin: 0;
+box-sizing: none;
+}
+
+#bgimg{
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    z-index: 1;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/Electronics-projects.jpg") no-repeat;
+    background-size: cover;
+    
+   
+    top: 0%;
+
+}
+#htitle{
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 35, 99, 0.719);
+    
+   
+}
+#mainhead{
+    font-size: 100%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 40px;
+   
+
+}
+#mainhead h1{
+ color: white;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#starter{
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 35, 99, 0.719);
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+#servbtn{
+    height: 80px;
+    width: 280px;
+    border-radius: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: none;
+    background-color: rgb(57, 255, 156);
+    color: rgb(0, 5, 78);
+    border: none;
+}
+#servbtn:hover{
+    height: 80px;
+    width: 280px;
+    border-radius: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: none;
+    background-color: rgba(59, 59, 59, 0.295);
+    color: rgb(235, 235, 235);
+    border: 1px white solid;
+}
+#content{
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    z-index: 20;
+}
